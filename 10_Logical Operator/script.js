@@ -17,4 +17,6 @@ const orResult3 = undefined || 4 + 8 * 5
 const andResult4 = 'hello' && console.log('hello')
 const orResult4 = undefined || console.log('hello')
 
+const andResult5 = undefined && console.log('hello')
+const orResult5 = 'hello' || console.log('hello')
 // const logResult = console.log('hello')
