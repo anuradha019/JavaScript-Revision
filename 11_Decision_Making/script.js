@@ -1,5 +1,5 @@
-const username = prompt('Please enter your Name');
-const userAge = parseInt(prompt('Enter your Age'));
+const username = prompt('Please enter your Name') || 'Anuradha';
+const userAge = parseInt(prompt('Enter your Age')) || 22;
 
 console.log(`Name : ${username}`);
 console.log(`Age : ${userAge}`);
