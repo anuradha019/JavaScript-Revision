@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreys</title>
+    
+</head>
+<body>
+    <h1>Basic Array methods</h1>
+    <h2><li>pop()</li></h2>
+    <p>This method is used for remove element from the last of arrey</p>
+    <p>Example: const fruitsCollection = ['mango', 'apple', 'grapes']</p>
+    <p> fruitsCollection.pop()</p>
+    <p>output:['mango', 'apple']</p>
+    <h2><li>push()</li></h2>
+    <p>This method is used for add element at the end of the arrey</p>
+    <p>Example: const fruitsCollection = ['mango', 'apple', 'grapes']</p>
+    <p> fruitsCollection.push('papaya')</p>
+    <p>output:['mango', 'apple', 'grapes', 'papaya']</p>
+    <h2><li>shift()</li></h2>
+    <p>This method is used for remove element from the start</p>
+    <p>Example: const fruitsCollection = ['mango', 'apple', 'grapes']</p>
+    <p> fruitsCollection.shift()</p>
+    <p>output:['apple', 'grapes']</p>
+    <h2><li>unshift()</li></h2>
+    <p>This method is used to add element at the starting of the arrey</p>
+    <p>Example: const fruitsCollection = ['mango', 'apple', 'grapes']</p>
+    <p> fruitsCollection.unshift('papaya')</p>
+    <p>output:['papaya', 'mango', 'apple', 'grapes', 'papaya']</p>
+    <h2><li>concat()</li></h2>
+    <p>This method is used to add more arrey and create new arrey where both arrey in a single array</p>
+    <p> Example:  const fruitsCollection = ['Mango', 'Apple', 'Grapse', 'Papaya']</p>
+    <p> const vegitables = ['Potaoes', 'Okra', 'spinich']</p>
+    <p> fruitsCollection.concat(vegitables)</p>
+    <p>Outputs: ['Mango', 'Apple', 'Grapse', 'Papaya', 'Potaoes', 'Okra', 'spinich']</p>
+    <h2><li>indexof()</li></h2>
+    <p>This method is used to show perticular data with the help of theire index number</p>
+    <p> Example:  const fruitsCollection = ['Mango', 'Apple', 'Grapse', 'Papaya']</p>
+    <p> fruitsCollection.indexof(3)</p>
+    <p> Output: Papaya</p>
+   <h2><li>includes()</li></h2>
+   <p>In this method we know the element in there or not it give output in boolean form</p>
+   <h2><li>reverse()</li></h2>
+   <p>This method is used to reverse all the element of the array</p>
+   <p> Example:  const fruitsCollection = ['Mango', 'Apple', 'Grapse', 'Papaya']</p>
+   <p> fruitsCollection.reverse()</p>
+   <p>Output: ['Papaya','Grapse', 'Apple', 'Mango'] </p>
+   <h2><li>sort()</li></h2>
+   <p>This method is used toh arrange element in alphabatical order</p>
+   <p> Example:  const fruitsCollection = ['Mango', 'Apple', 'Grapse', 'Papaya']</p>
+   <p> fruitsCollection.sort()</p>
+   <p>Output: [ 'Apple', 'Grapse', 'Mango', 'Papaya']</p>
+   <h2><li>slice()</li></h2>
+   <p>This method is used to show element from the given their index  number and it gives new arrey and we also give the end number </p>
+   <p> Example:  const fruitsCollection = ['Mango', 'Apple', 'Grapse', 'Papaya']</p>
+   <p> fruitsCollection.slice(1)</p>
+   <p>Output: ['Apple', 'Grapse', 'Papaya']</p>
+   <p> Example 2:  const fruitsCollection = ['Mango', 'Apple', 'Grapse', 'Papaya']</p>
+   <p> fruitsCollection.slice(1, 3)</p>
+   <p>Output: ['Apple', 'Grapse']</p>
+   <h2><li>splice()</li></h2>
+   <p>This method is used to delete element from arrey according to given index number and it modified the arrey not creat new arry and jo humne delete kiya hai uske badle new item bhi sath me add kar sakte hai</p>
+   <p> Example:  const fruitsCollection = ['Mango', 'Apple', 'Grapse', 'Papaya']</p>
+   <p> fruitsCollection.slice(2, 1, 'Lichi') 2 for index number and 1 ki kitne item delete krna hai</p>
+   <p>Output: ['Mango', 'Apple', 'Lichi', 'Papaya']</p>
+   <script src="script.js"></script>
+</body>
+</html>
